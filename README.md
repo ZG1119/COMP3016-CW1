@@ -52,6 +52,22 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
   Input: Press the ‘esc’ key./Reduce the player’s health to zero.<br>
   Expected Outcome: The game should display "Game Over" and return to the main menu when the ‘m’ key is pressed.<br>
 
+- 7.**Menu Navigation Test: √**<br>
+  Input: Press '2' to go to the help screen and then press any key to return to the menu.<br>
+  Expected Outcome: The help screen should be displayed, and returning to the menu should work as expected.<br>
+
+- 8.**Exit Test: √**<br>
+  Input: Press '0' to exit the game.<br>
+  Expected Outcome: The game should terminate.<br>
+
+- 9.**Max Score Update Test: √**<br>
+  Input: Achieve a score higher than the current max score.<br>
+  Expected Outcome: The max score should be updated after the game over.<br>
+
+- 10.**Invalid Input Test: √**<br>
+  Input: Enter an invalid key during gameplay.<br>
+  Expected Outcome: The game should ignore invalid keys.<br>
+
 ## Further Details
 
 The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
