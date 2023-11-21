@@ -2,7 +2,8 @@
 
 ## Game Development Environment
 
-The code was designed to be compatible with Visual Studio, a common integrated development environment for C++ on Windows. The provided functions like `_kbhit()` and `_getch()` indicate its Windows-specific nature.
+- **Visual Studio Version:** [17.7.4]
+- **Operating System:** [Windows 11 Home Chinese Version]
 
 ## Gameplay Overview
 
