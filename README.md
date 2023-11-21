@@ -44,6 +44,14 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
   Input: Play the game for some time.<br>
   Expected Outcome: New enemies should appear on the screen periodically. The game speed should increase over time.<br>
 
+- 5.**Score Test: √**<br>
+  Input: Destroy enemies with bullets.<br>
+  Expected Outcome: The player's score should increase for each destroyed enemy.<br>
+
+- 6.**Game Over Test: √**<br>
+  Input: Press the ‘esc’ key./Reduce the player’s health to zero.<br>
+  Expected Outcome: The game should display "Game Over" and return to the main menu when the ‘m’ key is pressed.<br>
+
 ## Further Details
 
 The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
