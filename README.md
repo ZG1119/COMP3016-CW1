@@ -28,9 +28,13 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
 
 ### Test Cases
 
-- 1.**Movement Test: √**
-  Press 'a', 'd', 'w', 's' keys to move the player in different directions.
-  The player should move left, right, up, and down respectively. The player does not move beyond the game boundaries.
+- 1.**Movement Test: √**<br>
+  Input: Press 'a', 'd', 'w', 's' keys to move the player in different directions.<br>
+  Expected Outcome: The player should move left, right, up, and down respectively. The player does not move beyond the game boundaries.<br>
+
+- 2.**Movement Test: √**<br>
+  Input: Press the space key to shoot bullets.<br>
+  Expected Outcome: Bullets should be added to the game, and their position should be updated in subsequent frames.<br>
 
 ## Further Details
 
