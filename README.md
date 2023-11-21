@@ -11,10 +11,13 @@ The game is a console-based aircraft battle game. The player controls an aircraf
 ## UML Design Diagram
 
 ### Class Diagram
+https://github.com/ZG1119/COMP3016-CW1/blob/main/ClassDiagram.png
 
 ### Use Case Diagram
+https://github.com/ZG1119/COMP3016-CW1/blob/main/UseCaseDiagram.png
 
 ### Flow Chart
+https://github.com/ZG1119/COMP3016-CW1/blob/main/FlowChart.png
 
 ## Exception Handling and Test Cases
 
