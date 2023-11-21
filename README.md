@@ -22,7 +22,9 @@ https://github.com/ZG1119/COMP3016-CW1/blob/main/FlowChart.png
 
 ## Exception Handling and Test Cases
 
-The code includes basic exception handling using try-catch blocks. However, the specific exceptions that can be thrown are not explicitly mentioned. Potential exceptions include array out of bounds errors, vector index errors, and issues related to dynamic memory management.
+### Exception Handling
+
+This C++ code contains basic exception handling using "try", "catch", and "cerr". Exception handling is used to catch and handle potential runtime errors that may occur during program execution.
 
 ## Further Details
 
