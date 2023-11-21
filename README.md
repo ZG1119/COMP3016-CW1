@@ -70,7 +70,6 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
 
 ## Further Details
 
-The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
 In the game, the enemy’s movement speed and the rate at which enemies are generated gradually increase.
 
 ## Video Link
