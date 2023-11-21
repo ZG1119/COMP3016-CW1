@@ -1,26 +1,54 @@
 # Aircraft Battle Game Prototype
 
-## Development Environment
-The code is written in C++ and designed to run on a console-based environment. Visual Studio is likely the intended development platform, given the use of `_getch()` and `system("cls")`. The code should be compatible with Windows due to the use of `windows.h` and `conio.h` headers.
+## Visual Studio and Operating System
 
-## Gameplay
-The game is a simple aircraft battle game where the player controls an aircraft ('P') to evade enemies ('E') and shoot bullets ('*') to destroy them. Player health decreases if the aircraft is hit by an enemy, and the game ends when health reaches zero. Points are earned by destroying enemies.
+The code was designed to be compatible with Visual Studio, a common integrated development environment for C++ on Windows. The provided functions like `_kbhit()` and `_getch()` indicate its Windows-specific nature.
+
+## How it Plays
+
+The game is a console-based aircraft battle game. The player controls an aircraft ('P') and can move it horizontally and vertically using 'a', 'd', 'w', and 's' keys. Bullets can be shot using the spacebar. The objective is to evade enemies ('E') and shoot them down for points. The game ends if the player's health reaches zero.
 
 ## UML Design Diagram
-Unfortunately, a visual UML diagram cannot be provided in this text format. However, the code contains the following classes:
-- `map`: Represents the game map and its properties.
-- `bullet`: Represents bullets with coordinates.
-- `player`: Represents the player with health, coordinates, and direction.
-- `enemy`: Represents enemies with random initial coordinates.
-- `score`: Represents the player's score.
+
+### Classes
+
+1. **map**
+   - Properties: width, height, sleepTime, frame, gameover, printBullet, printEnemy, printPlayer, collision, deleteEnemy, deleteBullet
+   - Methods: getWidth(), setWidth(), getHeight(), setHeight(), getSleepTime(), setSleepTime(), getFrame(), setFrame(), getGameover(), setGameover(), getPrintBullet(), setPrintBullet(), getPrintEnemy(), setPrintEnemy(), getPringPlayer(), setPrintPlayer(), getCollision(), setCollision(), getDeleteEnemy(), setDeleteEnemy(), getDeleteBullet(), setDeleteBullet()
+
+2. **bullet**
+   - Properties: x, y
+   - Methods: getX(), getY(), setY()
+
+3. **player**
+   - Properties: x, y, health, direction
+   - Methods: getHealth(), setHealth(), getX(), setX(), getY(), setY(), getDirection(), setDirection(), act()
+
+4. **enemy**
+   - Properties: x, y
+   - Methods: getX(), setX(), getY(), setY()
+
+5. **score**
+   - Properties: currentScore, maxScore
+   - Methods: getCurrentScore(), setCurrentScore(), getMaxScore(), gameOver()
+
+### Functions
+
+1. **menu()**: Display the main menu.
+2. **help()**: Display game instructions.
+3. **draw(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Draw the game screen.
+4. **logic(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Handle game logic.
+5. **gameOver(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Handle the game over screen.
+6. **main()**: Main function containing the game loop and user interaction.
 
 ## Exception Handling and Test Cases
-The code lacks extensive exception handling. It would be beneficial to implement error checking for user inputs and handle potential exceptions in file operations or memory management. Unit testing for individual functions, covering various scenarios, is recommended.
+
+The code includes basic exception handling using try-catch blocks. However, the specific exceptions that can be thrown are not explicitly mentioned. Potential exceptions include array out of bounds errors, vector index errors, and issues related to dynamic memory management.
 
 ## Further Details
-The game uses a console-based graphics approach and relies on the console window for display and keyboard input. The game loop includes logic for player movement, shooting, enemy movement, collision detection, and score tracking.
+
+The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
 
 ## Video and Git Repository
-Unfortunately, I cannot generate videos, and I cannot browse external links or repositories. Please create a video and share the repository link separately.
 
-If you have specific questions or need further assistance, feel free to ask!
+Unfortunately, as a text-based AI, I cannot view or link to external content.
