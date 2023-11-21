@@ -7,7 +7,7 @@
 
 ## Gameplay Overview
 
-The game is a console-based aircraft battle game. The player controls an aircraft ('P') and can move it horizontally and vertically using 'a', 'd', 'w', and 's' keys. Bullets can be shot using the spacebar. The objective is to evade enemies ('E') and shoot them down for points. The game ends if the player's health reaches zero.
+The game is a console-based aircraft battle game. The player controls an aircraft ('P') and can move it horizontally and vertically using 'a', 'd', 'w', and 's' keys. Bullets can be shot using the spacebar. The objective is to evade enemies ('E') and shoot them down for points. When the player is hit by enemies ('E'), the health will be reduced. The game ends if the player's health reaches zero.
 
 ## UML Design Diagram
 
