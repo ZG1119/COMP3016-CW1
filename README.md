@@ -26,6 +26,12 @@ https://github.com/ZG1119/COMP3016-CW1/blob/main/FlowChart.png
 
 This C++ code contains basic exception handling using "try", "catch", and "cerr". Exception handling is used to catch and handle potential runtime errors that may occur during program execution.
 
+### Test Cases
+
+- 1.**Movement Test: √**
+  Press 'a', 'd', 'w', 's' keys to move the player in different directions.
+  The player should move left, right, up, and down respectively. The player does not move beyond the game boundaries.
+
 ## Further Details
 
 The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
