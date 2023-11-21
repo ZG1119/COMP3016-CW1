@@ -10,36 +10,11 @@ The game is a console-based aircraft battle game. The player controls an aircraf
 
 ## UML Design Diagram
 
-### Classes
+### Class Diagram
 
-1. **map**
-   - Properties: width, height, sleepTime, frame, gameover, printBullet, printEnemy, printPlayer, collision, deleteEnemy, deleteBullet
-   - Methods: getWidth(), setWidth(), getHeight(), setHeight(), getSleepTime(), setSleepTime(), getFrame(), setFrame(), getGameover(), setGameover(), getPrintBullet(), setPrintBullet(), getPrintEnemy(), setPrintEnemy(), getPringPlayer(), setPrintPlayer(), getCollision(), setCollision(), getDeleteEnemy(), setDeleteEnemy(), getDeleteBullet(), setDeleteBullet()
+### Use Case Diagram
 
-2. **bullet**
-   - Properties: x, y
-   - Methods: getX(), getY(), setY()
-
-3. **player**
-   - Properties: x, y, health, direction
-   - Methods: getHealth(), setHealth(), getX(), setX(), getY(), setY(), getDirection(), setDirection(), act()
-
-4. **enemy**
-   - Properties: x, y
-   - Methods: getX(), setX(), getY(), setY()
-
-5. **score**
-   - Properties: currentScore, maxScore
-   - Methods: getCurrentScore(), setCurrentScore(), getMaxScore(), gameOver()
-
-### Functions
-
-1. **menu()**: Display the main menu.
-2. **help()**: Display game instructions.
-3. **draw(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Draw the game screen.
-4. **logic(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Handle game logic.
-5. **gameOver(map&, player&, score&, vector<enemy>&, vector<bullet>&)**: Handle the game over screen.
-6. **main()**: Main function containing the game loop and user interaction.
+### Flow Chart
 
 ## Exception Handling and Test Cases
 
