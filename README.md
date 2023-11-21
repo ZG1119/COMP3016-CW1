@@ -73,7 +73,7 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
 In the game, the enemy’s movement speed and the rate at which enemies are generated gradually increase.
 
 ## Video Link
-Unfortunately, as a text-based AI, I cannot view or link to external content.
+https://youtu.be/b5xvVfb1q2M
 
 ## Game Git Repository
 
