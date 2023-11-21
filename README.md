@@ -32,9 +32,13 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
   Input: Press 'a', 'd', 'w', 's' keys to move the player in different directions.<br>
   Expected Outcome: The player should move left, right, up, and down respectively. The player does not move beyond the game boundaries.<br>
 
-- 2.**Movement Test: √**<br>
+- 2.**Shooting Test: √**<br>
   Input: Press the space key to shoot bullets.<br>
-  Expected Outcome: Bullets should be added to the game, and their position should be updated in subsequent frames.<br>
+  Expected Outcome: Bullets should be added to the game, and their position should be updated in subsequent frames. When the bullet hits the enemy, the enemy is eliminated, and the bullet disappears. When the bullet hits the map boundary, the bullet disappears.<br>
+
+- 3.**Collision Test: √**<br>
+  Input: “Make the player collide with the enemy.<br>
+  Expected Outcome: The player's health should decrease, and the game should end if the player's health reaches zero.<br>
 
 ## Further Details
 
