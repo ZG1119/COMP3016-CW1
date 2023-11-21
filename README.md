@@ -1,10 +1,10 @@
 # Aircraft Battle Game Prototype
 
-## Visual Studio and Operating System
+## Game Development Environment
 
 The code was designed to be compatible with Visual Studio, a common integrated development environment for C++ on Windows. The provided functions like `_kbhit()` and `_getch()` indicate its Windows-specific nature.
 
-## How it Plays
+## Gameplay Overview
 
 The game is a console-based aircraft battle game. The player controls an aircraft ('P') and can move it horizontally and vertically using 'a', 'd', 'w', and 's' keys. Bullets can be shot using the spacebar. The objective is to evade enemies ('E') and shoot them down for points. The game ends if the player's health reaches zero.
 
@@ -49,6 +49,8 @@ The code includes basic exception handling using try-catch blocks. However, the 
 
 The game is a prototype with room for improvement. Additional testing and features would enhance its robustness and playability.
 
-## Video and Git Repository
-
+## Video Link
 Unfortunately, as a text-based AI, I cannot view or link to external content.
+
+## Game Git Repository
+
