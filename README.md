@@ -37,8 +37,12 @@ This C++ code contains basic exception handling using "try", "catch", and "cerr"
   Expected Outcome: Bullets should be added to the game, and their position should be updated in subsequent frames. When the bullet hits the enemy, the enemy is eliminated, and the bullet disappears. When the bullet hits the map boundary, the bullet disappears.<br>
 
 - 3.**Collision Test: √**<br>
-  Input: “Make the player collide with the enemy.<br>
+  Input: Make the player collide with the enemy.<br>
   Expected Outcome: The player's health should decrease, and the game should end if the player's health reaches zero.<br>
+
+- 4.**Enemy Generation Test: √**<br>
+  Input: Play the game for some time.<br>
+  Expected Outcome: New enemies should appear on the screen periodically. The game speed should increase over time.<br>
 
 ## Further Details
 
